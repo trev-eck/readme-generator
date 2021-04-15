@@ -97,7 +97,7 @@ ${data.testing}
 ## Questions
 If you have further questions about the functionality of this application or need clarification regarding certain areas the creator can be contacted at:<br>
 Email: ${data.email} <br>
-Github: github.com/${data.username}/
+Github: https://github.com/${data.username}/
     
 ${licenseData.section}
     

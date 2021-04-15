@@ -25,7 +25,9 @@ Below you can see a screenshot of the terminal questions and answers as well as 
 
 ![screenshot of terminal questions and answers](./images/cl-screenshot.png)
 ![screenshot of resulting readme file](./images/readme-screenshot.png)
-    
+
+A video walkthrough of the application can be found here: https://drive.google.com/file/d/1P16tUQvl4pad3MOGpdUgfvKCeFtdd7c9/view
+
 ## Contribution Guidelines
 If you are interested in contributing to this project please see the Questions section to contact the developer.
     
