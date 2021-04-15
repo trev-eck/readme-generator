@@ -35,7 +35,7 @@ The current testing suite is limited in functionality and will be improved with 
 ## Questions
 If you have further questions about the functionality of this application or need clarification regarding certain areas the creator can be contacted at:<br>
 Email: trevor.eckberg@gmail.com <br>
-Github: github.com/trev-eck/
+Github: https://github.com/trev-eck/
     
 ## License
 This application was developed under the MIT License
