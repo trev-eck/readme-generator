@@ -57,6 +57,21 @@ const questions = [
         choices: ['Apache', 'Creative Commons', 'GNU', 'MIT', 'Mozilla', 'Open Data Commons'],
         name: 'license',
     },
+    {
+        type: 'input',
+        message: 'Please provide the file path to your screenshot:',
+        name: 'screenshot',
+    },
+    {
+        type: 'input',
+        message: 'Please provide an alt tag for your screenshot: ',
+        name: 'screenshotalt',
+    },
+    {
+        type: 'input',
+        message: 'Please provide a link to your deployed application: ',
+        name: 'link',
+    },
 ];
 
 // : Create a function to write README file
@@ -76,7 +91,7 @@ ${licenseData.badge}
 5. [Test Instructions](##test-instructions)
 6. [Questions](##questions)
 ${licenseData.link}
-    
+8. [Screenshot](##screenshot)
     
     
 ## Description
@@ -100,7 +115,13 @@ Email: ${data.email} <br>
 Github: https://github.com/${data.username}/
     
 ${licenseData.section}
-    
+
+## Screenshot
+A live version of the application is deployed at: ${data.link}
+
+![${data.screenshotalt}](${data.screenshot})
+
+This readme was generated using the ReadME Generator : https://github.com/trev-eck/readme-generator
 `;
     fs.appendFile(fileName, readmeData, (error) => 
     error? console.error(error) : console.log("Readme Created!")
